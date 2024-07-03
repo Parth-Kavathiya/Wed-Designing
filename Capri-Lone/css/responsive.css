@@ -1,0 +1,170 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:768px) {
+    .header-row {
+        padding: 1px;
+        align-items: center;
+        align-items: center;
+    }
+
+    .header-row .section-1,
+    .header-row .section-2 {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        padding-top: 0;
+    }
+
+    .header-row .section-1 {
+        align-items: center;
+        text-align: center;
+        top: 0;
+        left: 0;
+    }
+
+    .header-row .section-2 {
+        align-self: center;
+    }
+
+    .image {
+        width: 95%;
+    }
+
+    .image img {
+        width: 100%;
+    }
+
+    .numbers .num-dont {
+        width: 65%;
+        margin: auto;
+        padding: 10px 5px;
+    }
+
+    .bord,
+    .bord1,
+    .bord2,
+    .bord3{
+        width: 180px;
+        height: 165px;
+        padding: 0 25px;
+    }
+    .bord4,
+    .bord5,
+    .bord6,
+    .bord7 {
+        width: 180px;
+        height: 230px;
+        padding: 0 25px;
+    }
+    .chechbtn{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .header-row {
+        padding: 1px;
+        text-align: center;
+    }
+
+    .header-row .section-1,
+    .header-row .section-2 {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        padding-top: 0;
+    }
+
+    .header-row .section-1 {
+        float: none !important;
+        left: 0;
+        top: 0;
+        align-items: center;
+    }
+
+    .header-row .section-2 {
+        float: none !important;
+        left: 0;
+    }
+
+    .header-row button {
+        padding-bottom: 10px !important;
+    }
+
+    .numbers .num-dont {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .numbers .num-dont h1 {
+        font-size: 27px;
+    }
+
+    .numbers .num-dont h3 {
+        font-size: 18px;
+    }
+
+    .numbers .num-dont p {
+        font-size: 14px;
+    }
+
+    .bord,
+    .bord1,
+    .bord2,
+    .bord3 {
+        width: 95px;
+        height: 127px;
+        padding: 0;
+    }
+    .bord4,
+    .bord5,
+    .bord6,
+    .bord7{
+        width: 95px;
+        height: 195px;
+        padding: 0;
+    }
+    .bord h2,
+    .bord1 h2,
+    .bord2 h2,
+    .bord3 h2,
+    .bord4 h2,
+    .bord5 h2,
+    .bord6 h2,
+    .bord7 h2 {
+        /* padding: 0 40px; */
+        font-size: 19px;
+        line-height: 0;
+        padding-top: 30px;
+
+
+    }
+    .bord p,
+    .bord1 p,
+    .bord2 p,
+    .bord3 p,
+    .bord4 p,
+    .bord5 p,
+    .bord6 p,
+    .bord7 p {
+        /* padding: 0 40px; */
+        font-size: 10px;
+        line-height: 0;
+        padding-top: 30px;
+        line-height: 1rem;
+    }
+}
+
+
+@media only screen and (max-width:553px) {
+    .navbar-link li {
+        display: block !important;
+        padding: 4px 10px;
+    }
+}
